@@ -1,0 +1,2 @@
+nasm -f elf64 -o Builds/Renderer.o Renderer.asm
+gcc -no-pie -o Builds/Renderer Builds/Renderer.o -lGL -lglfw -lc -s
